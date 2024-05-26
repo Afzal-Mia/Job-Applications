@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="apply_box">
+            <h1>Job Application <span>(web)</span></h1>
+            <form>
+                <div class="form_container">
+                    <div class="input_boxes">
+                        <label for="Frstn">First Name:</label>
+                        <input type="text" name="Frstn" id="Frstn" placeholder="Enter First Name..">
+                    </div>
+                    <div class="input_boxes">
+                        <label for="lstn">Last Name:</label>
+                        <input type="text" name="lstn" id="lstn" placeholder="Enter Last Name..">
+                    </div>
+                    <div class="input_boxes">
+                        <label for="eml">Email:</label>
+                        <input type="email" name="eml" id="eml" placeholder="Enter Email Address..">
+                    </div>
+                    <div class="input_boxes">
+                        <label for="JobRole">Job Role:</label>
+                        <select name="JobRole" id="JobRole">
+                            <option value="">Select Your Job Role</option>
+                            <option value="frd">Frontend</option>
+                            <option value="Bknd">Backend</option>
+                            <option value="Ui">User Interface</option>
+                            <option value="Ux">User Experience</option>
+                        </select>
+                    </div>
+                    <div class="text_area">
+                        <label for="txt">Write Something About you</label>
+                        <textarea name="txt" id="txt" cols="50" rows="4"></textarea>
+                    </div>
+                    <div class="input_boxes">
+                        <label for="city">Name City</label>
+                        <input type="text" name="city" id="city" placeholder="Enter City Name..">
+                    </div>
+                    <div class="input_boxes">
+                        <label for="pincode">Pin Code</label>
+                        <input type="text" name="pincode" id="pincode" placeholder="Enter City Name..">
+                    </div>
+                    <div class="input_boxes">
+                        <label for="date">Date</label>
+                        <input type="date" name="date" id="date">
+                    </div>
+                    <div class="input_boxes">
+                        <label for="files">Upload Your C.V</label>
+                        <input type="file" name="files" id="files">
+                    </div>
+            </form>
+            <div class="bottom-btn">
+               <button type="submit">Apply Now</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
